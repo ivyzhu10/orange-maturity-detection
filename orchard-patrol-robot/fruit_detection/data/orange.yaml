@@ -1,0 +1,9 @@
+# Orange ripeness dataset (286 hand labeled images, LabelImg)
+train: VOCdevkit/images/train  # 226 images
+val: VOCdevkit/images/val      # 60 images
+
+# number of classes
+nc: 2
+
+# class names
+names: ['orange', 'green_orange']
